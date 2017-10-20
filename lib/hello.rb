@@ -1,5 +1,5 @@
 def hello_t(array)
-  if array == nil || 0
+  if array == nil || array == nil 0
     puts "Hey! No block was given!"
   else
     array.each do |name|
