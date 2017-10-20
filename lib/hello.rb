@@ -1,6 +1,8 @@
 def hello_t(array)
   array.each do |name|
-    print "#{name} "
+    if name.start_with?("T")
+      print "#{name} "
+    end
   end
 end
 
