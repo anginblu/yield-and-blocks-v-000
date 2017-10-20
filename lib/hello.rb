@@ -1,7 +1,10 @@
 def hello_t(array)
+  i = 0
   if array.size > 0
-    yield(array)
-  else 
+    while i < array.size
+      yield array(i)
+    end
+  else
     nil
   end
 end
